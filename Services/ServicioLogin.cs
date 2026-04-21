@@ -7,54 +7,66 @@ namespace Nutriflow.Services
     {
         private readonly IConfiguration _configuration;
 
+        //INYECCIONES DE DEPENDENCIA 
         public ServicioLogin(IConfiguration configuration)
         {
             _configuration = configuration;
         }
 
-        public async Task<LoginResponse?> LoginAsync(LoginRequest request)
+        public async Task<LoginResponse?> Login(LoginRequest request)
         {
-            if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
+            try
             {
-                return null;
+                if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
+                {
+                    return null;
+                }
+
+                var connectionString = _configuration.GetConnectionString("SupabaseConnection");
+
+                await using var conn = new NpgsqlConnection(connectionString);
+                await conn.OpenAsync();
+
+                var query = @"SELECT id, nombre, email
+                      FROM usuarios
+                      WHERE LOWER(email) = LOWER(@email)
+                      AND ""contraseña"" = @password
+                      LIMIT 1;";
+
+                await using var cmd = new NpgsqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("email", request.Email);
+                cmd.Parameters.AddWithValue("password", request.Password);
+
+                await using var reader = await cmd.ExecuteReaderAsync();
+
+                if (!await reader.ReadAsync())
+                {
+                    return null;
+                }
+
+                var user = new UserDto
+                {
+                    Id = reader.GetGuid(reader.GetOrdinal("id")),
+                    Nombre = reader["nombre"]?.ToString() ?? string.Empty,
+                    Email = reader["email"]?.ToString() ?? string.Empty
+                };
+
+                return new LoginResponse
+                {
+                    Message = "Login correcto",
+                    User = user
+                };
             }
-
-            var connectionString = _configuration.GetConnectionString("SupabaseConnection");
-
-            await using var conn = new NpgsqlConnection(connectionString);
-            await conn.OpenAsync();
-
-            var sql = @"
-                SELECT id, nombre, email
-                FROM usuarios
-                WHERE LOWER(email) = LOWER(@email)
-                  AND ""contraseña"" = @password
-                LIMIT 1;
-            ";
-
-            await using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("email", request.Email);
-            cmd.Parameters.AddWithValue("password", request.Password);
-
-            await using var reader = await cmd.ExecuteReaderAsync();
-
-            if (!await reader.ReadAsync())
+            catch (Exception ex)
             {
-                return null;
+                Console.WriteLine("ERROR LOGIN:");
+                Console.WriteLine(ex.ToString());
+                throw;
             }
-
-            var user = new UserDto
-            {
-                Id = reader.GetGuid(reader.GetOrdinal("id")),
-                Nombre = reader["nombre"]?.ToString() ?? string.Empty,
-                Email = reader["email"]?.ToString() ?? string.Empty
-            };
-
-            return new LoginResponse
-            {
-                Message = "Login correcto",
-                User = user
-            };
         }
+
+
+
+
     }
 }
