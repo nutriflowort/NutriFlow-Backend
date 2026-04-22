@@ -29,7 +29,7 @@ foreach (var service in services)
 
 
 builder.Services.AddScoped<ServicioLogin>();
-
+builder.Services.AddScoped<ServicioRegister>();
 
 var app = builder.Build();
 
