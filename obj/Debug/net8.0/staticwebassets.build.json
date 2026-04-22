@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"S1Ek4iGntuyJAkIvfNnQB0xuzAlOjWiZeEK+l0843MU=","Source":"Nutriflow","BasePath":"_content/Nutriflow","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "ulcJlKseZ1TzIPaMgepqmBLmfVlOUhtui9gxMW2jXcg=",
+  "Source": "Nutriflow",
+  "BasePath": "_content/Nutriflow",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
