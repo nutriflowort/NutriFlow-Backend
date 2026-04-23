@@ -25,7 +25,9 @@ namespace Nutriflow.Controllers
                 string.IsNullOrWhiteSpace(request.Nombre) ||
                 string.IsNullOrWhiteSpace(request.Apellido) ||
                 string.IsNullOrWhiteSpace(request.Email) ||
-                string.IsNullOrWhiteSpace(request.Password))
+                string.IsNullOrWhiteSpace(request.Password) ||
+                string.IsNullOrWhiteSpace(request.Rol))
+         
             {
                 return BadRequest(new { message = "Todos los campos son obligatorios" });
             }
