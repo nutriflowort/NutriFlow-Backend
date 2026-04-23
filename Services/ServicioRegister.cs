@@ -21,7 +21,8 @@ namespace Nutriflow.Services
                 if (string.IsNullOrWhiteSpace(request.Nombre) ||
                     string.IsNullOrWhiteSpace(request.Apellido) ||
                     string.IsNullOrWhiteSpace(request.Email) ||
-                    string.IsNullOrWhiteSpace(request.Password))
+                    string.IsNullOrWhiteSpace(request.Password) ||
+                    string.IsNullOrWhiteSpace(request.Rol))
                 {
                     return null;
                 }
@@ -31,25 +32,16 @@ namespace Nutriflow.Services
                 await using var conn = new NpgsqlConnection(connectionString);
                 await conn.OpenAsync();
 
-                // VERIFICA SI YA EXISTE UN USUARIO CON ESE EMAIL
-                var checkQuery = @"SELECT COUNT(*) FROM usuarios WHERE LOWER(email) = LOWER(@email);";
+                //USAMOS TRANSACCIÓN PARA ASEGURAR TODO O NADA
+                await using var tx = await conn.BeginTransactionAsync();
 
-                await using var checkCmd = new NpgsqlCommand(checkQuery, conn);
-                checkCmd.Parameters.AddWithValue("email", request.Email);
-
-                var count = (long)(await checkCmd.ExecuteScalarAsync() ?? 0);
-
-                if (count > 0)
-                {
-                    return null; // EL CONTROLLER LO MANEJA COMO CONFLICTO
-                }
-
-                // INSERTA EL NUEVO USUARIO Y DEVUELVE SUS DATOS
-                var insertQuery = @"INSERT INTO usuarios (nombre, apellido, email, ""contraseña"")
+                // INSERTA EL USUARIO (EMAIL DEBE SER UNIQUE EN DB)
+                var insertUsuarioQuery = @"
+                                    INSERT INTO usuarios (nombre, apellido, email, ""contraseña"")
                                     VALUES (@nombre, @apellido, @email, @password)
                                     RETURNING id, nombre, email;";
 
-                await using var insertCmd = new NpgsqlCommand(insertQuery, conn);
+                await using var insertCmd = new NpgsqlCommand(insertUsuarioQuery, conn, tx);
                 insertCmd.Parameters.AddWithValue("nombre", request.Nombre);
                 insertCmd.Parameters.AddWithValue("apellido", request.Apellido);
                 insertCmd.Parameters.AddWithValue("email", request.Email);
@@ -59,21 +51,57 @@ namespace Nutriflow.Services
 
                 if (!await reader.ReadAsync())
                 {
+                    await tx.RollbackAsync();
                     return null;
                 }
 
+                var usuarioId = reader.GetGuid(reader.GetOrdinal("id"));
+
                 var user = new UserDto
                 {
-                    Id = reader.GetGuid(reader.GetOrdinal("id")),
+                    Id = usuarioId,
                     Nombre = reader["nombre"]?.ToString() ?? string.Empty,
                     Email = reader["email"]?.ToString() ?? string.Empty
                 };
+
+                await reader.CloseAsync();
+
+                // SEGÚN EL ROL, INSERTA EN TABLA HIJA (HERENCIA)
+                if (request.Rol.ToLower() == "paciente")
+                {
+                    var insertPaciente = @"INSERT INTO pacientes (id) VALUES (@id);";
+
+                    await using var cmd = new NpgsqlCommand(insertPaciente, conn, tx);
+                    cmd.Parameters.AddWithValue("id", usuarioId);
+                    await cmd.ExecuteNonQueryAsync();
+                }
+                else if (request.Rol.ToLower() == "nutricionista")
+                {
+                    var insertNutricionista = @"INSERT INTO nutricionistas (id) VALUES (@id);";
+
+                    await using var cmd = new NpgsqlCommand(insertNutricionista, conn, tx);
+                    cmd.Parameters.AddWithValue("id", usuarioId);
+                    await cmd.ExecuteNonQueryAsync();
+                }
+                else
+                {
+                    await tx.RollbackAsync();
+                    return null;
+                }
+
+                //CONFIRMA TODO
+                await tx.CommitAsync();
 
                 return new RegisterResponse
                 {
                     Message = "Registro correcto",
                     User = user
                 };
+            }
+            catch (PostgresException ex) when (ex.SqlState == "23505") // UNIQUE VIOLATION
+            {
+                // EMAIL DUPLICADO
+                return null;
             }
             catch (Exception ex)
             {
@@ -82,5 +110,7 @@ namespace Nutriflow.Services
                 throw;
             }
         }
+
+
     }
 }
