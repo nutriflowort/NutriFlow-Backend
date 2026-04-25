@@ -52,7 +52,8 @@ namespace Nutriflow.Services
                 {
                     Id = reader.GetGuid(reader.GetOrdinal("id")),
                     Nombre = reader["nombre"]?.ToString() ?? string.Empty,
-                    Email = reader["email"]?.ToString() ?? string.Empty
+                    Email = reader["email"]?.ToString() ?? string.Empty,
+                    Rol = reader["rol"]?.ToString() ?? string.Empty
                 };
 
                 //GENERA TOKEN DE JWT
@@ -86,7 +87,8 @@ namespace Nutriflow.Services
             {
                 new Claim("id", user.Id.ToString()),
                 new Claim("email", user.Email),
-                new Claim("nombre", user.Nombre)
+                new Claim("nombre", user.Nombre),
+                new Claim("rol", user.Rol),
             };
 
             //CREA TOKEN 
