@@ -111,3 +111,11 @@ C:\Users\matic.DESKTOP-L0748C2\Downloads\NutriFlow-Backend\obj\Debug\net8.0\refi
 C:\Users\matic.DESKTOP-L0748C2\Downloads\NutriFlow-Backend\obj\Debug\net8.0\Nutriflow.pdb
 C:\Users\matic.DESKTOP-L0748C2\Downloads\NutriFlow-Backend\obj\Debug\net8.0\Nutriflow.genruntimeconfig.cache
 C:\Users\matic.DESKTOP-L0748C2\Downloads\NutriFlow-Backend\obj\Debug\net8.0\ref\Nutriflow.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ffacu\OneDrive\Escritorio\NUTRIFLOW\BACK-END\NutriFlow-Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
