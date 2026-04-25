@@ -1,5 +1,9 @@
+using Microsoft.IdentityModel.Tokens;
 using Npgsql;
 using Nutriflow.DTOs;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Nutriflow.Services
 {
@@ -48,13 +52,19 @@ namespace Nutriflow.Services
                 {
                     Id = reader.GetGuid(reader.GetOrdinal("id")),
                     Nombre = reader["nombre"]?.ToString() ?? string.Empty,
-                    Email = reader["email"]?.ToString() ?? string.Empty
+                    Email = reader["email"]?.ToString() ?? string.Empty,
+                    Rol = reader["rol"]?.ToString() ?? string.Empty
                 };
 
+                //GENERA TOKEN DE JWT
+                var token = GenerarJwt(user);
+
+                //RESPUESTA 
                 return new LoginResponse
                 {
                     Message = "Login correcto",
-                    User = user
+                    User = user,
+                    Token = token
                 };
             }
             catch (Exception ex)
@@ -66,7 +76,34 @@ namespace Nutriflow.Services
         }
 
 
+        //GENERACION DE JWT
+        private string GenerarJwt(UserDto user)
+        {
+            //TOMA LA CLAVE DE APPSETTINGS,JSON
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!);
 
+            //DATOS DEL USUARIO QUE VAND ENTRO DEL JWT 
+            var claims = new[]
+            {
+                new Claim("id", user.Id.ToString()),
+                new Claim("email", user.Email),
+                new Claim("nombre", user.Nombre),
+                new Claim("rol", user.Rol),
+            };
+
+            //CREA TOKEN 
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(2),
+                signingCredentials: new SigningCredentials(
+                    new SymmetricSecurityKey(key),
+                    SecurityAlgorithms.HmacSha256 //HASH DE TOKEN Y NADIE LA PUEDE MODIFICAR
+                )
+            );
+
+            //DEVUELVE EL TOKEN COMO STRING
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
 
     }
 }

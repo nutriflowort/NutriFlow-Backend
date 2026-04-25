@@ -4,5 +4,6 @@ namespace Nutriflow.DTOs
     {
         public string Message { get; set; } = string.Empty;
         public UserDto? User { get; set; }
+        public string Token { get; set; } = string.Empty;
     }
 }

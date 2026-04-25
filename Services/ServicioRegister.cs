@@ -100,7 +100,7 @@ namespace Nutriflow.Services
             }
             catch (PostgresException ex) when (ex.SqlState == "23505") // UNIQUE VIOLATION
             {
-                // EMAIL DUPLICADO
+                //EMAIL DUPLICADO
                 return null;
             }
             catch (Exception ex)
