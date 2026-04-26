@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,40 @@
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\services\\servicioforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\nutriflow.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -31,24 +55,12 @@
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\ffacu\\onedrive\\escritorio\\nutriflow\\back-end\\nutriflow-backend\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,6 +99,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServicioLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioLogin.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
+              "RelativeToolTip": "Services\\ServicioLogin.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:02:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioRegister.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioRegister.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
+              "RelativeToolTip": "Services\\ServicioRegister.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIAwwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T01:05:06.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:13:17.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T01:03:40.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -99,44 +163,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Nutriflow.http",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Nutriflow.http",
-              "RelativeDocumentMoniker": "Nutriflow.http",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Nutriflow.http",
-              "RelativeToolTip": "Nutriflow.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-04-25T19:09:46.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServicioLogin.cs",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
-              "RelativeDocumentMoniker": "Services\\ServicioLogin.cs",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
-              "RelativeToolTip": "Services\\ServicioLogin.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwD8AAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T01:02:26.618Z",
+              "WhenOpened": "2026-04-23T00:34:21.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T01:00:58.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Dtos\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\LoginRequest.cs",
@@ -144,35 +184,51 @@
               "RelativeToolTip": "Dtos\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:25:32.05Z"
+              "WhenOpened": "2026-04-23T23:25:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicioForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioForgotPassword.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioForgotPassword.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioForgotPassword.cs",
+              "RelativeToolTip": "Services\\ServicioForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:47:49.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-21T01:03:40.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCMAAAAjAAAAAAAAAA==",
+              "Title": "ForgotPasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\ForgotPasswordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ForgotPasswordController.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\ForgotPasswordController.cs",
+              "RelativeToolTip": "Controllers\\ForgotPasswordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T01:13:17.914Z"
+              "WhenOpened": "2026-04-26T18:59:47.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\EmailService\\EmailService.cs",
+              "RelativeDocumentMoniker": "EmailService\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\EmailService\\EmailService.cs",
+              "RelativeToolTip": "EmailService\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:52:23.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
@@ -184,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Dtos\\LoginResponse.cs",
               "RelativeDocumentMoniker": "Dtos\\LoginResponse.cs",
@@ -196,7 +252,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:00:58.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Nutriflow.http",
+              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Nutriflow.http",
+              "RelativeDocumentMoniker": "Nutriflow.http",
+              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Nutriflow.http",
+              "RelativeToolTip": "Nutriflow.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-25T19:09:46.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Nutriflow.csproj",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Nutriflow.csproj",
               "RelativeDocumentMoniker": "Nutriflow.csproj",
@@ -208,31 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServicioRegister.cs",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
-              "RelativeDocumentMoniker": "Services\\ServicioRegister.cs",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
-              "RelativeToolTip": "Services\\ServicioRegister.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwGYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T01:05:06.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T00:34:21.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Dtos\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\RegisterRequest.cs",
@@ -244,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ffacu\\OneDrive\\Escritorio\\NUTRIFLOW\\BACK-END\\NutriFlow-Backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

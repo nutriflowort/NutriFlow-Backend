@@ -31,19 +31,25 @@ namespace Nutriflow.Services
                 await using var conn = new NpgsqlConnection(connectionString);
                 await conn.OpenAsync();
 
-                var query = @"SELECT id, nombre, email, rol
-                      FROM usuarios
-                      WHERE LOWER(email) = LOWER(@email)
-                      AND ""contraseña"" = @password             
-                      LIMIT 1;";
+                var query = @"SELECT id, nombre, email, rol, ""contraseña""
+                              FROM usuarios
+                              WHERE LOWER(email) = LOWER(@email)
+                              LIMIT 1;";
 
                 await using var cmd = new NpgsqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("email", request.Email);
-                cmd.Parameters.AddWithValue("password", request.Password);
 
                 await using var reader = await cmd.ExecuteReaderAsync();
 
                 if (!await reader.ReadAsync())
+                {
+                    return null;
+                }
+
+                var passwordGuardada = reader["contraseña"]?.ToString() ?? "";
+
+                //DESHASHEA LA CONTRASEÑA
+                if (!BCrypt.Net.BCrypt.Verify(request.Password, passwordGuardada))
                 {
                     return null;
                 }

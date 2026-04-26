@@ -52,7 +52,12 @@ foreach (var service in services)
     builder.Services.AddScoped(service);
 }
 
+//Servicio de mail + forgot password
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<ServicioForgotPassword>();
+
 var app = builder.Build();
+
 
 // Swagger
 app.UseSwagger();
