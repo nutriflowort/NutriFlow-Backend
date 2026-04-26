@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
-using Nutriflow.DTOs;
+using Nutriflow.Dtos;
 using Nutriflow.Services;
 
 namespace Nutriflow.Controllers
@@ -18,7 +18,7 @@ namespace Nutriflow.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] DTOs.RegisterRequest request)
+        public async Task<IActionResult> Register([FromBody] Dtos.RegisterRequest request)
         {
             // VERIFICA QUE NO SEAN NULOS LOS PARAMETROS
             if (request == null ||

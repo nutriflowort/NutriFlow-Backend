@@ -1,6 +1,6 @@
 using Microsoft.IdentityModel.Tokens;
 using Npgsql;
-using Nutriflow.DTOs;
+using Nutriflow.Dtos;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -9,12 +9,12 @@ namespace Nutriflow.Services
 {
     public class ServicioLogin
     {
-        private readonly IConfiguration _configuration;
+        private readonly IConfiguration _config;
 
         //INYECCIONES DE DEPENDENCIA 
         public ServicioLogin(IConfiguration configuration)
         {
-            _configuration = configuration;
+            _config = configuration;
         }
 
         public async Task<LoginResponse?> Login(LoginRequest request)
@@ -26,15 +26,15 @@ namespace Nutriflow.Services
                     return null;
                 }
 
-                var connectionString = _configuration.GetConnectionString("SupabaseConnection");
+                var connectionString = _config.GetConnectionString("SupabaseConnection");
 
                 await using var conn = new NpgsqlConnection(connectionString);
                 await conn.OpenAsync();
 
-                var query = @"SELECT id, nombre, email
+                var query = @"SELECT id, nombre, email, rol
                       FROM usuarios
                       WHERE LOWER(email) = LOWER(@email)
-                      AND ""contraseña"" = @password
+                      AND ""contraseña"" = @password             
                       LIMIT 1;";
 
                 await using var cmd = new NpgsqlCommand(query, conn);
@@ -80,7 +80,7 @@ namespace Nutriflow.Services
         private string GenerarJwt(UserDto user)
         {
             //TOMA LA CLAVE DE APPSETTINGS,JSON
-            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!);
+            var key = Encoding.UTF8.GetBytes(_config["Jwt:Key"]!);
 
             //DATOS DEL USUARIO QUE VAND ENTRO DEL JWT 
             var claims = new[]

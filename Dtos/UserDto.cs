@@ -1,4 +1,4 @@
-namespace Nutriflow.DTOs
+namespace Nutriflow.Dtos
 {
     public class UserDto
     {
