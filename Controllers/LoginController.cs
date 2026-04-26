@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Nutriflow.Dtos;
 using Nutriflow.DTOs;
 using Nutriflow.Services;
 
@@ -6,37 +7,29 @@ namespace Nutriflow.Controllers
 {
     [ApiController]
     [Route("api/auth")]
-    public class LoginController : ControllerBase
+    public class ForgotPasswordController : ControllerBase
     {
-        private readonly ServicioLogin _servicioLogin;
+        private readonly ServicioForgotPassword _servicioForgotPassword;
 
-        //INYECCIONES DE DEPENDENCIA
-        public LoginController(ServicioLogin servicioLogin)
+        // INYECCIONES DE DEPENDENCIA
+        public ForgotPasswordController(ServicioForgotPassword servicioForgotPassword)
         {
-            _servicioLogin = servicioLogin;
+            _servicioForgotPassword = servicioForgotPassword;
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDto request)
         {
-            //VERIFICA QUE NO SEAN NULOS LOS PARAMETROS 
-            if (request == null ||
-                string.IsNullOrWhiteSpace(request.Email) ||
-                string.IsNullOrWhiteSpace(request.Password))
+            // VERIFICA QUE NO SEA NULO EL EMAIL
+            if (request == null || string.IsNullOrWhiteSpace(request.Email))
             {
-                return BadRequest(new { message = "Email y contraseña son obligatorios" });
+                return BadRequest(new { message = "El email es obligatorio" });
             }
 
-            //LLAMA AL SERVICIO CORRESPONDIENTE
-            var resultado = await _servicioLogin.Login(request);
+            // LLAMA AL SERVICIO CORRESPONDIENTE
+            var resultado = await _servicioForgotPassword.ForgotPassword(request);
 
-            //SI NO EXISTE USUARIO, ENVIA MENSAJE DE ERROR
-            if (resultado == null)
-            {
-                return Unauthorized(new { message = "Credenciales inválidas" });
-            }
-
-            //RETORNA OK SI SALIO TODO BIEN
+            // RETORNA OK
             return Ok(resultado);
         }
     }

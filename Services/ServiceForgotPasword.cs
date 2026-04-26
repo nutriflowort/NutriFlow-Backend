@@ -9,12 +9,12 @@ namespace Nutriflow.Services
 {
     public class ServicioLogin
     {
-        private readonly IConfiguration _config;
+        private readonly IConfiguration _configuration;
 
         //INYECCIONES DE DEPENDENCIA 
         public ServicioLogin(IConfiguration configuration)
         {
-            _config = configuration;
+            _configuration = configuration;
         }
 
         public async Task<LoginResponse?> Login(LoginRequest request)
@@ -26,7 +26,7 @@ namespace Nutriflow.Services
                     return null;
                 }
 
-                var connectionString = _config.GetConnectionString("SupabaseConnection");
+                var connectionString = _configuration.GetConnectionString("SupabaseConnection");
 
                 await using var conn = new NpgsqlConnection(connectionString);
                 await conn.OpenAsync();
@@ -80,7 +80,7 @@ namespace Nutriflow.Services
         private string GenerarJwt(UserDto user)
         {
             //TOMA LA CLAVE DE APPSETTINGS,JSON
-            var key = Encoding.UTF8.GetBytes(_config["Jwt:Key"]!);
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!);
 
             //DATOS DEL USUARIO QUE VAND ENTRO DEL JWT 
             var claims = new[]
