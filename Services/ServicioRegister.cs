@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.Data;
 using Npgsql;
-using Nutriflow.DTOs;
+using Nutriflow.Dtos;
 
 namespace Nutriflow.Services
 {
@@ -14,7 +14,7 @@ namespace Nutriflow.Services
             _configuration = configuration;
         }
 
-        public async Task<RegisterResponse?> Register(DTOs.RegisterRequest request)
+        public async Task<RegisterResponse?> Register(Dtos.RegisterRequest request)
         {
             try
             {

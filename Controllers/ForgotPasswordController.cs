@@ -1,42 +1,54 @@
 using Microsoft.AspNetCore.Mvc;
-using Nutriflow.DTOs;
-using Nutriflow.Services;
+using Nutriflow.Dtos;
+ using Nutriflow.Services;
 
 namespace Nutriflow.Controllers
 {
     [ApiController]
     [Route("api/auth")]
-    public class LoginController : ControllerBase
+    public class ForgotPasswordController : ControllerBase
     {
-        private readonly ServicioLogin _servicioLogin;
+        private readonly ServicioForgotPassword _servicioForgotPassword;
 
-        //INYECCIONES DE DEPENDENCIA
-        public LoginController(ServicioLogin servicioLogin)
+        // INYECCIONES DE DEPENDENCIA
+        public ForgotPasswordController(ServicioForgotPassword servicioForgotPassword)
         {
-            _servicioLogin = servicioLogin;
+            _servicioForgotPassword = servicioForgotPassword;
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequest request)
         {
-            //VERIFICA QUE NO SEAN NULOS LOS PARAMETROS 
+            // VERIFICA QUE NO SEA NULO EL EMAIL
+            if (request == null || string.IsNullOrWhiteSpace(request.Email))
+                return BadRequest(new { message = "El email es obligatorio" });
+
+            // LLAMA AL SERVICIO CORRESPONDIENTE
+            var resultado = await _servicioForgotPassword.ForgotPassword(request);
+            // Always return 200 with the response DTO so dev can read .Code/.ResetLink in console
+            return Ok(resultado);
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
             if (request == null ||
-                string.IsNullOrWhiteSpace(request.Email) ||
-                string.IsNullOrWhiteSpace(request.Password))
+                string.IsNullOrWhiteSpace(request.Token) ||
+                string.IsNullOrWhiteSpace(request.NewPassword))
             {
-                return BadRequest(new { message = "Email y contraseña son obligatorios" });
+                return BadRequest(new { message = "Datos inv�lidos." });
             }
 
-            //LLAMA AL SERVICIO CORRESPONDIENTE
-            var resultado = await _servicioLogin.Login(request);
+            // If client didn't send confirmPassword, accept newPassword as confirmation for convenience in tests
+            if (string.IsNullOrWhiteSpace(request.ConfirmPassword))
+                request.ConfirmPassword = request.NewPassword;
 
-            //SI NO EXISTE USUARIO, ENVIA MENSAJE DE ERROR
-            if (resultado == null)
-            {
-                return Unauthorized(new { message = "Credenciales inválidas" });
-            }
+            var resultado = await _servicioForgotPassword.ResetPassword(request);
 
-            //RETORNA OK SI SALIO TODO BIEN
+            // If ResetPassword returns Success=false, surface 400 so frontend can show the message
+            if (!resultado.Success)
+                return BadRequest(new { message = resultado.Message });
+
             return Ok(resultado);
         }
     }

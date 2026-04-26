@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\services\\servicioforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\forgotpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\forgotpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\resetpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\resetpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\dlh_2\\onedrive\\desktop\\proyecto nutricion\\proyecto\\nutriflow\\nutriflow-backend\\nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:nutriflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,26 +110,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Nutriflow.csproj",
-              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Nutriflow.csproj",
-              "RelativeDocumentMoniker": "Nutriflow.csproj",
-              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Nutriflow.csproj",
-              "RelativeToolTip": "Nutriflow.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-21T22:34:48.553Z",
+              "DocumentIndex": 1,
+              "Title": "ServicioForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioForgotPassword.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioForgotPassword.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioForgotPassword.cs",
+              "RelativeToolTip": "Services\\ServicioForgotPassword.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAMwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:31:09.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "Dtos\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:22:12.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "ForgotPasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\ForgotPasswordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ForgotPasswordController.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\ForgotPasswordController.cs",
+              "RelativeToolTip": "Controllers\\ForgotPasswordController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T01:00:58.244Z",
               "EditorCaption": ""
@@ -85,40 +150,189 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "Dtos\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:13:18.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPasswordResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ForgotPasswordResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\ForgotPasswordResponse.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ForgotPasswordResponse.cs",
+              "RelativeToolTip": "Dtos\\ForgotPasswordResponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T21:23:59.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServicioRegister.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioRegister.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
+              "RelativeToolTip": "Services\\ServicioRegister.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:18:32.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:01:39.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ServicioLogin.cs",
               "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
               "RelativeDocumentMoniker": "Services\\ServicioLogin.cs",
               "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
               "RelativeToolTip": "Services\\ServicioLogin.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowCgAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T01:02:26.618Z",
+              "WhenOpened": "2026-04-26T05:31:37.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T21:24:37.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T21:24:07.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T05:57:58.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResetPasswordResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ResetPasswordResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\ResetPasswordResponse.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\ResetPasswordResponse.cs",
+              "RelativeToolTip": "Dtos\\ResetPasswordResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:31:02.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
               "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\UserDto.cs",
               "RelativeToolTip": "Dtos\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T01:18:57.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T01:18:57.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterResponse.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\RegisterResponse.cs",
+              "RelativeToolTip": "Dtos\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:13:22.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\RegisterRequest.cs",
+              "RelativeToolTip": "Dtos\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:13:25.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Dtos\\LoginResponse.cs",
+              "RelativeToolTip": "Dtos\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:13:28.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T01:13:17.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Nutriflow.csproj",
+              "DocumentMoniker": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Nutriflow.csproj",
+              "RelativeDocumentMoniker": "Nutriflow.csproj",
+              "ToolTip": "C:\\Users\\dlh_2\\OneDrive\\Desktop\\Proyecto NUTRICION\\Proyecto\\NutriFlow\\NutriFlow-Backend\\Nutriflow.csproj",
+              "RelativeToolTip": "Nutriflow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T22:34:48.553Z"
             }
           ]
         }

@@ -1,6 +1,6 @@
 using Microsoft.IdentityModel.Tokens;
 using Npgsql;
-using Nutriflow.DTOs;
+using Nutriflow.Dtos;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

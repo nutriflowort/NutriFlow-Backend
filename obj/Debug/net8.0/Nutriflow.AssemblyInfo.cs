@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nutriflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd6aaf8996ba234f4ae142078cfc4a655e8d4e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+367eb3f4a4886c4a1e0eaa4aa9490e4f32d2fb76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nutriflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nutriflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
