@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matic.DESKTOP-L0748C2\\Downloads\\NutriFlow-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\matic.desktop-l0748c2\\downloads\\nutriflow-backend\\services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\matic.desktop-l0748c2\\downloads\\nutriflow-backend\\services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\serviciologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\matic.desktop-l0748c2\\downloads\\nutriflow-backend\\services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|solutionrelative:services\\servicioregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857534D9-0AFE-47B7-8DE5-D18909D91608}|Nutriflow.csproj|c:\\users\\matic.desktop-l0748c2\\downloads\\nutriflow-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ServicioRegister.cs",
               "DocumentMoniker": "C:\\Users\\matic.DESKTOP-L0748C2\\Downloads\\NutriFlow-Backend\\Services\\ServicioRegister.cs",
               "RelativeDocumentMoniker": "Services\\ServicioRegister.cs",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Dtos\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T01:03:07.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T01:03:07.336Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Controllers\\RegisterController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T00:34:21.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T00:34:21.727Z"
             },
             {
               "$type": "Document",
@@ -93,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServicioLogin.cs",
               "DocumentMoniker": "C:\\Users\\matic.DESKTOP-L0748C2\\Downloads\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
               "RelativeDocumentMoniker": "Services\\ServicioLogin.cs",
               "ToolTip": "C:\\Users\\matic.DESKTOP-L0748C2\\Downloads\\NutriFlow-Backend\\Services\\ServicioLogin.cs",
               "RelativeToolTip": "Services\\ServicioLogin.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAmwD8AAAARAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwD8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T01:02:26.618Z",
               "EditorCaption": ""
