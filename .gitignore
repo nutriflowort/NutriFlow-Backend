@@ -1,0 +1,8 @@
+.vs/
+*.user
+.appsettings.json
+.obj
+bin/
+obj/
+Debug/
+Release/

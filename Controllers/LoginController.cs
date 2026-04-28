@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Nutriflow.DTOs;
+using Nutriflow.Dtos;
 using Nutriflow.Services;
 
 namespace Nutriflow.Controllers
