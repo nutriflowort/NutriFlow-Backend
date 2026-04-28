@@ -48,7 +48,7 @@ namespace Nutriflow.Services
 
                 //HASHEA LA CONTRASEÑA
                 var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
-                insertCmd.Parameters.AddWithValue("password", request.Password);
+                insertCmd.Parameters.AddWithValue("password", passwordHash);
 
                 await using var reader = await insertCmd.ExecuteReaderAsync();
 

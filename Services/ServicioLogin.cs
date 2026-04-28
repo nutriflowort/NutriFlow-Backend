@@ -49,8 +49,17 @@ namespace Nutriflow.Services
                 var passwordGuardada = reader["contraseña"]?.ToString() ?? "";
 
                 //DESHASHEA LA CONTRASEÑA
-                if (!BCrypt.Net.BCrypt.Verify(request.Password, passwordGuardada))
+                try
                 {
+                    if (!BCrypt.Net.BCrypt.Verify(request.Password, passwordGuardada))
+                    {
+                        return null;
+                    }
+                }
+                catch (BCrypt.Net.SaltParseException)
+                {
+                    // Si el hash en la BD es inválido (texto plano, por ejemplo), denegamos el acceso
+                    Console.WriteLine($"Atención: El usuario {request.Email} tiene un formato de contraseña inválido en la BD.");
                     return null;
                 }
 
